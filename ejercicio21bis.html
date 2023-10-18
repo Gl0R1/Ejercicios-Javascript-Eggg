@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio21</title>
+  </head>
+  <body>
+    <h2>Array de objeto Persona</h2>
+    <form id="formulario">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" /><br /><br />
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" /><br /><br />
+
+      <label for="sexo">Sexo:</label>
+      <select type="text" id="sexo">
+        <br /><br />
+        <option value="hombre">Hombre:</option>
+        <option value="mujer">Mujer:</option>
+        <option value="otro">Otro:</option></select
+      ><br /><br />
+
+      <label for="peso">Peso en kg</label>
+      <input type="number" id="peso" /><br /><br />
+
+      <label for="altura">Altura en cm</label>
+      <input type="number" id="altura" /><br /><br />
+
+      <button id="boton" type="button" onclick="recogerDatos()">Enviar</button>
+    </form>
+    <br><hr>
+
+    <div id="datos"></div>
+
+    <button id="boton2" type="button" onclick="location.reload()">
+      Nuevo ingreso
+    </button>
+
+    <script src="ejercicio21bis.js"></script>
+  </body>
+</html>
